@@ -176,7 +176,8 @@ func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -
     }
 }
 ```
-Let’s run your application again
+
+Let's run your application again
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/section-heading2.png">
 
