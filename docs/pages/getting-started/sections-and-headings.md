@@ -129,7 +129,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         }
         return cell
     }
-  let dailyTasks = ["daily task 1",
+    let dailyTasks = ["daily task 1",
                       "daily task 2",
                       "daily task 3",
                       "daily task 4",
@@ -184,5 +184,5 @@ Let's run your application again
 You can see headings, but it is useful for some visual separation between sections. So go back into Xcode and open the Main.storyboard. Select Table View and open up the Attribute Inspector in the upper section in the right panel and change the style from Plain to Grouped. 
 
 Run your application and now you will see more separation between our different sections and the rows in those sections. 
- 
+
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/section-heading3.png">
