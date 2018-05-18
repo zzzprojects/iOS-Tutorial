@@ -23,7 +23,7 @@ We wrote these methods, but table view itself takes care of calling them.
 
  - Now imagine we have a table view with a large amount of data, such as hundreds, or thousands of rows then table view will immediately call the following method thousand times to get all the rows with table view cell objects.
    - `func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell` 
- - We will only see 10-15 rows at a time on screen, all other rows will be created, but we won’t see them until we scroll up/down. 
+ - We will only see 10-15 rows at a time on screen, all other rows will be created, but we won't see them until we scroll up/down. 
  - And holding them all the cells in memory seems inefficient.
  - The table view has a built-in solution, instead of creating new cell object for every row, use the reusable cell which is also known as dequeuing a cell.
  - W can then change the contents of the existing cell object, which is quicker and more efficient than instantiating a new table cell object.
@@ -84,13 +84,13 @@ You can define your custom cells and their contents using Xcode to design them a
 ### detailTextLabel
 
  - It holds the detail label of the cell, UITableViewCell adds an appropriate label when you create the cell in a style that supports secondary labels. 
- - If the style doesn’t support detail labels, nil is returned.
+ - If the style doesn't support detail labels, nil is returned.
 
 ### accessoryType
 
  - It also has a property called accessoryType; accessory is the term we use for the small icons or glyphs on the right-hand side. 
  - The data type of this is an enumeration and includes the following options;
-   - **disclosureIndicator:** The gray chevron to suggest that this row leads to something else. B
+   - **disclosureIndicator:** The gray chevron to suggest that this row leads to something else. 
    - **detailButton:** The informational circle. 
    - **detailDisclosureButton:** The combination of the first two. There's also    
    - **checkmark:**  Show the check mark
@@ -118,5 +118,5 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 ```
 
 Now let's run your application.
- 
+
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/custom-cell5.png">
