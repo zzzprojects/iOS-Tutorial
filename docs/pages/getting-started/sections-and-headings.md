@@ -156,11 +156,11 @@ class ViewController: UIViewController, UITableViewDataSource {
 }
 ```
 
-Let’s run the application.
+Let's run the application.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/section-heading1.png">
 
-You can see the right data, but it still looks like one section, they are all just one after the other. Now we want to have headings for each section. So let’s go into Xcode and add a new method ` tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String?` and  return a string based on the section number. 
+You can see the right data, but it still looks like one section, they are all just one after the other. Now we want to have headings for each section. So let's go into Xcode and add a new method ` tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String?` and  return a string based on the section number. 
 
 ```csharp
 func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
