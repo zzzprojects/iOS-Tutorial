@@ -11,7 +11,7 @@ We have a simple task list app which contains three different sections for daily
 
 Now we want the ability to toggle the dark mode on or off and the best thing for a toggle option is an iOS switch. The table view is full-screen space, and we wouldn't want to drop this switch right on top of my table view. 
 
-Let’s add a toolbar to this view controller, so first, grab the bottom of the table view and move it up.
+Let's add a toolbar to this view controller, so first, grab the bottom of the table view and move it up.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/toolbar2.png">
 
@@ -35,7 +35,7 @@ It can act just like a button, but you can also configure to act just as a label
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/toolbar7.png">
 
-In Attributes Inspector, change the Title to “Dark mode” and uncheck the Enable option. Then Go to the Object library, drag a switch onto this toolbar. 
+In Attributes Inspector, change the Title to "Dark mode" and uncheck the Enable option. Then Go to the Object library, drag a switch onto this toolbar. 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/toolbar8.png">
 
@@ -74,7 +74,7 @@ func numberOfSections(in tableView: UITableView) -> Int {
 }
 ```
 
-The individual table view cells will still obscure the background because they all have white background color as well, so let’s make transparent the individual cell as well. 
+The individual table view cells will still obscure the background because they all have white background color as well, so let's make transparent the individual cell as well. 
 
 ```csharp
 func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -95,7 +95,7 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 }
 ```
 
-Let’s run your application, and you can see a switch button which can enable/disable the dark mode.
+Let's run your application, and you can see a switch button which can enable/disable the dark mode.
  
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/toolbar11.png">
 

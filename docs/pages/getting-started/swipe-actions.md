@@ -24,7 +24,7 @@ In view controller, we have three arrays of tasks for daily, weekly and monthly 
 var dailyTasks = [
     Task(name: "daily task 1", type: .daily, completed: false, lastCompleted: nil),
     Task(name: "daily task 2", type: .daily, completed: false, lastCompleted: nil),
-    Task(name: "daily task 3", type: .daily, completed: false, lastCompleted: nil ),
+    Task(name: "daily task 3", type: .daily, completed: false, lastCompleted: nil),
     Task(name: "daily task 4", type: .daily, completed: false, lastCompleted: nil),
     Task(name: "daily task 5", type: .daily, completed: false, lastCompleted: nil),
     Task(name: "daily task 6", type: .daily, completed: false, lastCompleted: nil),
@@ -86,10 +86,8 @@ We have also added some additional functionality; if the task is completed, then
 
 You can handle swipe actions in UITableView using the following two methods.
 
-```csharp
-    tableView(_:leadingSwipeActionsConfigurationForRowAt:)?
-    tableView(_:trailingSwipeActionsConfigurationForRowAt:)?
-```
+ - LeadingSwipeActions
+ - TrailingSwipeActions
 
 The leading swipe is from the left to the right, and the trailing Swipe is from the right to the left, and these methods were introduced as a part of UITableViewDelegate. Here we need to implement a trailingSwipeActions method.
 
@@ -120,7 +118,7 @@ func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRow
 This method will be called automatically when user swipe from right to left on any task. Let's run your application.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/swipe-action1.png">
- 
+
 Tap the Complete option on the right side, and it will be marked as completed.
- 
+
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/swipe-action2.png">

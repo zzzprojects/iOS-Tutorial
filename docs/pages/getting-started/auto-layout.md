@@ -87,7 +87,7 @@ You can see the top right label now, but the bottom labels are not visible. When
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/autolayout13.png">
 
-It means that in landscape mode, the Safe Area goes to the top of the screen that’s why the top labels are not aligned. So let's define the constraints of other labels as well with their corresponding sides of the view.
+It means that in landscape mode, the Safe Area goes to the top of the screen that's why the top labels are not aligned. So let's define the constraints of other labels as well with their corresponding sides of the view.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/autolayout14.png">
  
