@@ -6,7 +6,7 @@ When you create your iOS application, it must be able to run on many different d
  - It is not the same layout, only larger or smaller screen sizes, but the aspect ratio of height to width is also completely different.
  - You can also be switched from portrait to landscape, and someone can change the settings on their device, and they want a larger font. 
 
-### Auto Layout
+## Auto Layout
 
  - We need a user interface that can automatically adjust itself for multiple devices and orientations. 
  - It should be flexible and adaptive so that it can adapt itself to different circumstances.
