@@ -67,5 +67,5 @@ Click the Reset button, and you will see the following alert.
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/alerts5.png">
 
 Now if you click No, then nothing will happen, but if you click on Yes then the completed mark will be removed.
-
+ 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/alerts6.png">
