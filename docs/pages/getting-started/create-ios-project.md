@@ -12,7 +12,7 @@ Xcode is far more than iOS development, and you can also see templates for macOS
 
 ### Single View App
 
-In this tutorials, we will use mostly a template from iOS Application section, So let's start by selecting the simplest and most straightforward option for iOS is the Single View App. 
+In this tutorial, we will use mostly a template from iOS Application section, So let's start by selecting the simplest and most straightforward option for iOS is the Single View App. 
 
  - This is the classic starting point for an iOS app, where Xcode will give us the minimum, but necessary, plumbing to begin with a simple iOS app with a single screen. 
  - The Single View App is not limited in any way, choosing this option does not restrict you, it's not just some option for learning or experimenting. 
