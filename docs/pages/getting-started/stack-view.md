@@ -2,7 +2,7 @@
 
 ## Stack Views
 
-Stack views let you leverage the power of Auto Layout, creating user interfaces that can dynamically adapt to the device’s orientation, screen size, and any changes in the available space. 
+Stack views let you leverage the power of Auto Layout, creating user interfaces that can dynamically adapt to the device's orientation, screen size, and any changes in the available space. 
 
  - A stack view takes two or more view objects and then stacks them either horizontally or vertically. 
  - The stack view manages the layout of all the views in its arranged Subviews property. 
@@ -27,7 +27,7 @@ The best option for adding constraints for a stack view is using the Add New Con
  
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/stacklayout4.png">
 
-Let’s add manual constraints by clicking the red dotted line to the top, left and right, which is going to connect it to the Safe Area, 16 points from the left, and 16 points from the right.
+Let's add manual constraints by clicking the red dotted line to the top, left and right, which is going to connect it to the Safe Area, 16 points from the left, and 16 points from the right.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/stacklayout5.png">
 
