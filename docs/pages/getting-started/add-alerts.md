@@ -1,12 +1,12 @@
 # Add an Alert
 
-Display an alert or action sheet when your app requires additional information or acknowledgment from the user. Alerts and action sheets interrupt your appís normal flow to display a message to the user.
+Display an alert or action sheet when your app requires additional information or acknowledgment from the user. Alerts and action sheets interrupt your app's normal flow to display a message to the user.
 
 In our task list app, we need a way to reset the list without using Xcode to reinstall and relaunch the app. From Object Library add a new Bar Button Item to the toolbar at the bottom. 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/alerts1.png">
 
-In the Attributes Inspector, change the title to ìResetî it. Now we need an action for this button, so control-drag from Document Outline to the View Controller class.
+In the Attributes Inspector, change the title to ‚ÄúReset‚Äù it. Now we need an action for this button, so control-drag from Document Outline to the View Controller class.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/alerts2.png">
 
