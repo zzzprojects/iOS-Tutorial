@@ -15,9 +15,9 @@ The launch screen is not an opportunity for artistic expression, but It is solel
 
  - It is supposed to stay very minimal, because it is not designed for you to use as a splash screen and put a bunch of artwork on.
  - You can provide your launch screen as images, but it is often easier to just make a simple storyboard, and iOS will use Auto Layout and size classes to make sure what is shown on the launch screen adapts to the device. 
- - You don’t need to add any text, content or code, but it is just for UI elements to provide a very basic screen similar to your application home screen.
+ - You don't need to add any text, content or code, but it is just for UI elements to provide a very basic screen similar to your application home screen.
 
-Let’s open the XCode and replicate what you have on your Main.storyboard.
+Let's open the XCode and replicate what you have on your Main.storyboard.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/launch-screen2.png">
 
@@ -25,7 +25,7 @@ It has pretty much nothing except the toolbar, because the table view will be em
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/launch-screen3.png">
 
-By default, a toolbar contains an Item and on Launch screen we don’t need any text or content, so remove that item. 
+By default, a toolbar contains an Item and on Launch screen we don't need any text or content, so remove that item. 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/launch-screen4.png">
 
