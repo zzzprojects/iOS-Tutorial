@@ -5,7 +5,7 @@
 In iOS, a view object means anything that is capable of drawing itself in a rectangular region on an iOS screen.
  
  - For example, a label is a view object, and a button is another view object. 
- - When you are looking at the user interface of any random iOS application, that one screen might contain 5 or 10 or maybe more than 20 different view objects. 
+ - When you are looking at the user interface of any random iOS application, that one screen might contain 5 , 10 or maybe more than 20 different view objects.
  - Some views are large, and some are tiny. Some views might show an image, and some might display text, some might show both.
 
 Let's back in the code for the FirstApp project. In ViewController.swift file we are using a `view` to change the background color. 
