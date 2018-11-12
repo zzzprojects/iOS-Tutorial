@@ -49,7 +49,7 @@ We are now in standard editor mode, and we can edit a single file at a time whic
  - The ViewController.swift file on the right is the corresponding code file for this Main.storyboard on the left.
  - The relationship between these two files was already set up in the default project template we chose of the Single View App. 
 
-Now, all we have right now is the default code which contains a Swift class called ViewController. 
+Now, all we have is the default code which contains a Swift class called ViewController.
 
 To make a connection from a control in the storyboard to the code file, hold down the control key, click the button, and drag over into the Swift file, and you will get connector line. Drag this inside the opening braces of ViewController class, release the mouse, and you will see the following popup.
 
