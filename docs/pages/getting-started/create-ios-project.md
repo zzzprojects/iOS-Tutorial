@@ -26,12 +26,12 @@ So let's choose **Single View App** and click Next. Xcode now asks for little mo
 You can change this information later, and it's just often easier to do it right at the start of a new project. 
 
  - **Product Name:** It's the name of your app, for this demo let's call it **FirstApp**, and you can use spaces in this name. 
- - **Team:** You will see a button asking to sign in to Xcode with your Apple ID so it can know if you are part of the Apple Developer Program. We don't need to do that right now
+ - **Team:** You will see a button asking to sign in to Xcode with your Apple ID so it can know if you are part of the Apple Developer Program. We don't need to do that right now.
  - **Organization Name:** By default, Xcode will grab the name of the currently signed-on user, but you could change this to your company name, and Xcode would then remember that for new projects. 
- - **Organization Identifier**, Typically this is the domain name of your organization written in reverse DNS format. 
+ - **Organization Identifier:** Typically, this is the domain name of your organization written in reverse DNS format. 
  - **Bundle Identifier:** Xcode takes **Organization Identifier** and combines it with the **Product Name** at the top to generate the internal name for this application to make it a unique name so that it wouldn't clash with some other App with the same name from any other organization. 
  - **Language:** The default language for this project, you can choose either Swift or Objective-C. It is possible to mix them to have both kinds of code in a project, but here everything is in Swift. 
- - **Three final checkboxes** can add additional functionality to our project. But for this demo let's uncheck all of them. 
+ - **Three final checkboxes:** Can add additional functionality to our project. But for this demo let's uncheck all of them. 
  - Click Next, and you will get one more option to create a Source Control repository for this project. 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/iOS-Tutorial/master/docs/images/create-ios-project4.png">
