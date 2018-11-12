@@ -5,9 +5,9 @@
 iOS is the mobile operating system developed by Apple Inc and is the mobile version of the OS X operating system used in Apple computers. 
 
  - Developing iOS (Swift) apps is the perfect starting point for learning to create apps that run on iPhone and iPad
- - Many software developers are surprised that how different it will be to jump into the Apple developer world if it's not what you're used to. 
+ - Many software developers are surprised how different it is to jump into the Apple developer world if it's not what they are used to.
 
-So in this step by step tutorials, we will explore not only the code, but the most important ideas, techniques, and skills that you will always need when doing any iOS development. After completing this step by step tutorials, you will;
+So, in this step by step tutorials, we will explore not only the code, but the most important ideas, techniques, and skills that you will always need when doing any iOS development. After completing this step by step tutorial, you will;
 
  - Get comfortable with the Xcode 9 and the Swift 4 programming language. 
  - Cover how to create iOS projects. 
